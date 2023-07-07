@@ -85,10 +85,10 @@ export default function Sidebar() {
           <IoChevronForward size={24} className="ml-0.5 text-brand" />
         )}
       </button>
-      
+
       <ul className="mt-4 space-y-2 text-lg">
         {sidebarLink.map(({ name, href, icon }) => (
-          <SidebarLink icon={icon} href={href} expanded={expandMenu}>
+          <SidebarLink key={name} icon={icon} href={href} expanded={expandMenu}>
             {name}
           </SidebarLink>
         ))}

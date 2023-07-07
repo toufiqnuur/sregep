@@ -60,7 +60,7 @@ export default function AuthForm({ type, onSubmit }) {
       </span>
 
       <div class="mt-6">
-        <Label for="email">Email</Label>
+        <Label htmlFor="email">Email</Label>
         <InputForm
           type="email"
           id="email"
@@ -72,7 +72,7 @@ export default function AuthForm({ type, onSubmit }) {
       </div>
 
       <div class="mt-6">
-        <Label for="password">Kata Sandi</Label>
+        <Label htmlFor="password">Kata Sandi</Label>
         <InputForm
           type="password"
           id="password"
